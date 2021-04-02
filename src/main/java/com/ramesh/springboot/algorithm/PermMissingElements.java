@@ -4,6 +4,9 @@ public class PermMissingElements {
 
     public static void main(String[] args){
         // send array value into methods
+        /*
+        Formula is  : (n*n+1)/2 ;  n- means getting count of array length
+         */
         System.out.println(permMissingElements(new int[]{1,2,3,4}));
         System.out.println(permMissingElements(new int[]{1,2,3,4,5,6,7,8,9,10,12,13,14,15}));
     }
